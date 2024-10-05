@@ -1,0 +1,39 @@
+<!DOCTYPE html >
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Random generator</title>
+</head>
+<body class="">
+    <section id="alphabet-generator" class="flex justify-around p-20" >
+        <div class="border-black w-5/12 h-5/6 min-h-screen">
+            <div class="">
+                <h1 class="p-4 text-2xl font-mono">Click the Button to get a Random alphabet key</h1>
+                <p class="p-4 text-lg">Random alphabet Key is: <span id="alphabetOutput" class="bold text-purple-800 text-4xl uppercase">--</span></p>
+            </div>
+            <button onclick="generateAlphabetKey()" class="bg-green-700 p-4 rounded-3xl text-white text-2xl">
+                Random
+            </button>
+        </div>
+        <div class="border-black w-5/12 h-5/6 min-h-screen">
+            <div class="">
+                <h1 class="p-4 text-2xl font-mono">Click the Button to get a Random Number</h1>
+                <p class="p-4 text-lg">Random Number is: <span id="numberOutput" class="bold text-purple-800 text-4xl uppercase">--</span></p>
+            </div>
+            <button onclick="generateNumber()" class="bg-green-700 p-4 rounded-3xl text-white text-2xl">
+                Random
+            </button>
+        </div>
+    </section>
+    <section id="number-generator">
+
+    </section>
+
+    
+    <script src="asset/main.js"></script>
+</body>
+</html>
